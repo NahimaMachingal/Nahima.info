@@ -118,11 +118,20 @@ hr {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode .button {
+  border: 1px solid white;
+  color: white;
 }
 
 .button:hover {
   background-color: lightgray;
+}
+
+.dark-mode .button:hover {
+  background-color: #333;
 }
 
 .about-section p {
